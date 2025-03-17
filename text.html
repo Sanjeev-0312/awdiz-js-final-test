@@ -1,0 +1,95 @@
+Basic JavaScript
+
+
+1. What are the differences between var, let, and const?
+
+Ans:- The difference between var, let,and const is 
+ var:- var is a globally use .where as the let and const is not used from globally.
+       1.let and const are a block scope value and var is also.
+       2.var can allow the hoisting where the let and const are not allowed hoisting 
+       
+2. Explain the concept of closures in JavaScript with an example.
+
+Ans:- the concept of closurs in JavaScript  is access  to the inner function of enclosing the  outer Function.
+       Example :-the closurs function are allowed that the function inside the function can access.
+        
+3. What is hoisting in JavaScript? How does it work?
+ Ans:- hoisting in JavaScript is work from the after the initialization the code are declare first . 
+
+ console.log(x); 
+ var x = 5;
+ console.log(x);
+
+
+4. What is the difference between == and === in JavaScript?
+
+Ans:- the difference btw == and === in JavaScript are :
+  ==  are check the value  .
+  === are check the data type and compare the data .
+
+5. What is an Immediately Invoked Function Expression (IIFE)? 
+Ans:- Immediately Invoked function Expression is an Invoked the paranthesis () . 
+      
+6. Explain the difference between null, undefined, and NaN.
+
+Ans:- null is an assignment value that represents no value or no object.
+ undefined  means a variable has been declared but has not yet been assigned a value.
+ NaN stands for "Not-a-Number" and is a value that represents something that is not a number.
+
+7. What is event delegation in JavaScript?
+ Ans:- Event delegation in javaScript is a techniques which can work from the parent function of the event bubbling .
+8. What is the difference between call, apply, and bind methods?
+  Ans:- The difference between call , apply and bind methods 
+ call :- it can accepts a list of arguments and function Invokes
+ apply:- It can returns a new function with the context and it doesnot invoked value immediately.
+ bind :- it can accept a single array of arguments.
+
+9. What are higher-order functions in JavaScript? Provide an example.
+
+Ans:- higher-order function  are operates the another function by taking and arguments and returns 
+     
+Example :-Just like a  Callback function .
+
+10. Explain the difference between synchronous and asynchronous JavaScript.
+ 
+Ans:-  difference btw synchronous and asynchronous in javaScript 
+       synchronous can code execute line by line.
+       asynchronous can not execute the code line by line and it is wait the execution completion  after that check.
+
+Advanced JavaScript
+
+11. What is the JavaScript event loop, and how does it work?  
+
+Ans:- Eventloop in javaScript are work the 3 basic steps first callstack  and webapi and callback queue
+ 1. if the function is continuously executing the code first from the callstack to and run continuously . if the call stack is empty it checks the webapi to see if there is any pending callback queue  to be executed  and after the completion of the time code will come from the callstack and execute .
+
+12. What are promises in JavaScript? How do they differ from callbacks? 
+
+Ans:- promises in javaScript is an object which can differs the Eventloop completion  and asynchronous .  
+callback differs as a promisses errors and catch from the single block.
+
+13. Explain async and await. How do they improve asynchronous code?
+Ans:- async is a keyword used to declare an asynchronous function. When an async function is called, it returns  a  Promise.
+ await is used to pause the execution of an async function until a Promise is resolved or rejected. It can only be used inside an async function.
+
+14. What is the difference between map, filter, reduce, and forEach?
+Ans:- the difference between map, filter, reduce, and forEach   
+   map is calling and provided  a function  on each elements.
+   filter can create a new array with all the elements that passes the provided function.
+   reduce can executes all the element in the array and it provided a single result .
+   forEach can executes the provided function from once of the array elements.
+
+    
+15. What is the difference between deep copy and shallow copy? How do you create them in JavaScript?
+Ans:- the difference btw deep copy and shallow copy   
+
+16. What are WeakMap and WeakSet? How do they differ from Map and Set?
+Ans:-
+17. How does JavaScript handle memory management and garbage collection? 
+Ans:- JavaScript handles memory management through automatic garbage collection. This means that the JavaScript engine automatically allocates memory when objects are created and frees it when they are no longer needed. The primary mechanism for garbage collection in JavaScript. 
+
+18. What is debouncing and throttling? How do you implement them?
+
+19. Explain requestAnimationFrame. How is it better than setTimeout?
+
+20. What is WebSockets, and how is it different from HTTP requests?
